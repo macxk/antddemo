@@ -44,6 +44,21 @@ export default [
             name: 'Mydemo',
             component: './Dashboard/Mydemo',
           },
+          {
+            path: '/dashboard/Mapdemo',
+            name: 'Mapdemo',
+            component: './Dashboard/Mapdemo',
+          },
+          {
+            path: '/dashboard/Mapdemo01',
+            name: 'Mapdemo01',
+            component: './Dashboard/Mapdemo01',
+          },
+          {
+            path: '/dashboard/Mydemo02',
+            name: 'Mydemo02',
+            component: './Dashboard/Mydemo02',
+          },
         ],
       },
       // forms

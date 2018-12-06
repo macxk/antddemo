@@ -12,6 +12,8 @@ import GridContent from '@/components/PageHeaderWrapper/GridContent';
 import Authorized from '@/utils/Authorized';
 import styles from './Monitor.less';
 
+import Drilldown from '@/components/Map'
+
 const { Secured } = Authorized;
 
 const targetTime = new Date().getTime() + 3900000;
@@ -109,10 +111,7 @@ class Monitor extends PureComponent {
                     />
                   }
                 >
-                  <img
-                    src="https://gw.alipayobjects.com/zos/rmsportal/HBWnDEUXCnGnGrRfrpKa.png"
-                    alt="map"
-                  />
+                  <Drilldown/>
                 </Tooltip>
               </div>
             </Card>
